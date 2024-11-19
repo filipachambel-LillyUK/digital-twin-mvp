@@ -1,0 +1,23 @@
+.about-project-cnt{
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-cnt{
+    background-color: #CF3035;
+    color: white;
+}
+
+.scenarioproblem-cnt{
+
+}
+
+.features-cnt{
+background-color: #FEE9E9;
+color: black;
+}
+
+.features-body-text{
+    display: flex;
+    flex-direction: column;
+}

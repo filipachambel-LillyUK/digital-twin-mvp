@@ -1,0 +1,22 @@
+.dt-navbar-cnt{
+margin: 0 2rem;
+display: flex;
+justify-content: space-between;
+}
+
+.dt-navbar-content {
+display: flex;
+}
+
+.dt-navbar-content button{
+background-color: transparent;
+border: none;
+font-size: 1rem;
+font-weight: 600;
+margin-left: 1rem;
+}
+
+.dt-navbar-content button:hover{
+    cursor: pointer;
+    color: #CF3035;
+}

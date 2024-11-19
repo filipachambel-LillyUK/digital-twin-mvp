@@ -1,0 +1,20 @@
+.design-arch-cnt{
+    display: flex;
+    flex-direction: column;
+}
+
+.sys-arch-cnt{
+    
+}
+
+.sys-arch-cnt h1{
+    text-align: center;;
+}
+
+.design-cnt{
+background-color: #FEE9E9;
+}
+
+.design-cnt h1{
+    text-align: center;
+}
