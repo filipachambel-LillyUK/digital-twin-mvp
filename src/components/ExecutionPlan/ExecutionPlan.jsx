@@ -6,7 +6,7 @@ import Costs from './Costs';
 
 export default function ExecutionPlan() {
     return(
-        <div className="execution-plan-cnt">
+        <div id="execution-plan" className="execution-plan-cnt">
         <Timeline />
         <Stakeholders />
         <Costs />

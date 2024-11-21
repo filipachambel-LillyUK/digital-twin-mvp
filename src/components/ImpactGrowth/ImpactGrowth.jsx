@@ -1,13 +1,12 @@
 import ROIBenefits from "./ROIBenefits";
-import ScalabilitySustainability from "./ScalabilitySustainability";
 import './ImpactGrowth.css';
 import SuccessStories from "./SuccessStories";
 
 export default function ImpactGrowth() {
     return(
-        <div className="impact-growth-cnt">
+        <div id="impact-growth" className="impact-growth-cnt">
+            <h1>Impact & Growth</h1>
         <ROIBenefits />
-        <ScalabilitySustainability />
         <SuccessStories />
         </div>
     )

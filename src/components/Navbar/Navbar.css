@@ -1,7 +1,11 @@
 .dt-navbar-cnt{
-margin: 0 2rem;
+padding: 0 2rem;
 display: flex;
 justify-content: space-between;
+position:sticky;
+top: 0;
+background-color: #fff;
+z-index: 10;;
 }
 
 .dt-navbar-content {
@@ -18,5 +22,5 @@ margin-left: 1rem;
 
 .dt-navbar-content button:hover{
     cursor: pointer;
-    color: #CF3035;
+    color: var(--darkBlue);
 }

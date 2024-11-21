@@ -1,15 +1,30 @@
 .execution-plan-cnt{
-    
+    background-color: var(--backgroundBlue);
+    padding: 2rem;
 }
 
 .timeline-cnt h1{
-    text-align: center;
+   color: var(--darkBlue);
+
 }
 
 .stakeholder-cnt h1{
-    text-align: center;
+    color: var(--darkBlue);
+}
+
+.costs-cnt-item{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .costs-cnt h1{
-    text-align: center;
+  
+    color: var(--darkBlue);
+}
+
+.costs-img-cnt{
+    border: .1rem solid var(--darkBlue);
+    border-radius: 1rem;
 }

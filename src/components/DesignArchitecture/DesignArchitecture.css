@@ -11,8 +11,29 @@
     text-align: center;;
 }
 
+.sysarch-btn-row{
+display: flex;
+justify-content: center;
+}
+
+.sysarch-btn-row button{
+    background-color: var(--backgroundBlue);
+    border: var(--darkBlue);
+    border-radius: 1rem;
+    padding: .5rem .8rem;
+    margin: 0 .5rem;
+    font-weight: 500;
+}
+
+.sysarch-btn-row button:hover{
+    background-color: var(--darkBlue);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
 .design-cnt{
-background-color: #FEE9E9;
+
 }
 
 .design-cnt h1{

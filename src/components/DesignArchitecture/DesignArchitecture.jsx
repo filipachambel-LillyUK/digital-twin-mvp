@@ -4,7 +4,7 @@ import "./DesignArchitecture.css";
 
 export default function DesignArchitecture() {
     return(
-    <div className="design-arch-cnt">
+    <div id="design-architecture" className="design-arch-cnt">
     <SystemArchitecture/>
     <Design/>
     </div>)

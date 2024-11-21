@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FEE9E9;
+    background-color: var(--backgroundBlue);
+    color: var(--darkBlue)
 }
 
 .team-body{

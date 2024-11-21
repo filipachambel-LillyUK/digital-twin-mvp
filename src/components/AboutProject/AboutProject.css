@@ -4,8 +4,37 @@
 }
 
 .overview-cnt{
-    background-color: #CF3035;
-    color: white;
+    background-color: var(--backgroundBlue);
+    color: var(--darkBlue);
+    display: flex;
+    padding: 2rem;
+}
+
+.overview-content p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.overview-card{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.overview-cards{
+width: 100%;
+overflow: hidden;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem
 }
 
 .scenarioproblem-cnt{
@@ -13,11 +42,12 @@
 }
 
 .features-cnt{
-background-color: #FEE9E9;
-color: black;
+background-color: var(--backgroundBlue);
+color: var(--darkBlue);
 }
 
 .features-body-text{
     display: flex;
     flex-direction: column;
+    color: black;
 }
