@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExecutionPlan.css";
-import timelineDiagram from "../../images/timeline.png";
+import timelineDiagram from "../../assets/timeline.png";
 
 export default function Timeline() {
   return (

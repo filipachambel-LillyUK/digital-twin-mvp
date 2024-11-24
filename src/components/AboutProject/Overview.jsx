@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutProject.css";
-import demandiq from "../../images/logo_v2.png";
+import demandiq from "../../assets/logo_v2.png";
 import AliceCarousel from "react-alice-carousel";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Card from "./Card";
@@ -21,7 +21,7 @@ export default function Overview() {
   return (
     <div className="overview-cnt">
       <div>
-        <img src={demandiq} alt="demandiq logo" />
+        <img src={demandiq} alt="demandiq logo" className="demandiq-logo"/>
         <div className="overview-content">
           <p>AI-powered Power BI dashboard for:​</p>
           <p>- Real-time insights into stock levels.​</p>

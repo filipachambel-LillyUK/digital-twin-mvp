@@ -28,3 +28,14 @@
     border: .1rem solid var(--darkBlue);
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px){
+    .costs-cnt-item{
+        flex-direction: column;
+    }
+
+    .costs-img-cnt{
+        width: 100%;
+    }
+    
+}

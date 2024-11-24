@@ -23,6 +23,7 @@ justify-content: center;
     padding: .5rem .8rem;
     margin: 0 .5rem;
     font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
 
 .sysarch-btn-row button:hover{
@@ -33,9 +34,40 @@ justify-content: center;
 }
 
 .design-cnt{
-
+margin: 3rem 0;
 }
 
 .design-cnt h1{
     text-align: center;
+}
+.ui-card-cnt{
+    text-align: center;
+}
+.ui-card-cnt img{
+ width: 50%;
+
+}
+
+.design-cnt alice-carousel alice-carousel__next-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    text-align: end;
+}
+
+.design-cnt alice-carousel alice-carousel__prev-btn{
+    position: absolute;
+    top: 50%;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    .sysarch-btn-row{
+        flex-direction: column;
+    }
+
+    .sysarch-btn-row button{
+        margin: .2rem 0;
+    }
+    
 }

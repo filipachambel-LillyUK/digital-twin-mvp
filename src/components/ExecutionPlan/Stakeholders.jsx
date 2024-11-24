@@ -1,6 +1,6 @@
 import React from 'react';
 import './ExecutionPlan.css';
-import stakeholdersDiagram from '../../images/stakeholders.png';
+import stakeholdersDiagram from '../../assets/stakeholders.png';
 
 export default function Stakeholders() {
     return(

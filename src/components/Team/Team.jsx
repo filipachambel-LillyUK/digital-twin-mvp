@@ -1,11 +1,11 @@
 import React from 'react';
 import './Team.css';
-import filipa from '../../images/profile/filipaProfile.png';
-import profile from '../../images/profile/nextProfile.png';
-import alicia from '../../images/profile/aliciaProfile.png';
-import esha from '../../images/profile/eshaProfile.png';
-import lucie from '../../images/profile/lucieProfile.png';
-import jack from '../../images/profile/jackProfile.png';
+import filipa from '../../assets/profile/filipaProfile.png';
+import profile from '../../assets/profile/nextProfile.png';
+import alicia from '../../assets/profile/aliciaProfile.png';
+import esha from '../../assets/profile/eshaProfile.png';
+import lucie from '../../assets/profile/lucieProfile.png';
+import jack from '../../assets/profile/jackProfile.png';
 
 export default function Team() {
     return(

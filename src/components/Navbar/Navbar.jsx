@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import lillyLogo from "../../images/lillyLogo.png";
+import lillyLogo from "../../assets/lillyLogo.png";
 
 export default function Navbar() {
 

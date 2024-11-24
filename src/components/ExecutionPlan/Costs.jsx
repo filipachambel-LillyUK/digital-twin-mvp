@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExecutionPlan.css";
-import initialCosts from "../../images/initialCosts.png";
-import ongoingCosts from "../../images/ongoingCosts.png";
+import initialCosts from "../../assets/initialCosts.png";
+import ongoingCosts from "../../assets/ongoingCosts.png";
 
 export default function Costs() {
   return (
