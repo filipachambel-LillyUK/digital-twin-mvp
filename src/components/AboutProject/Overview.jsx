@@ -4,6 +4,8 @@ import demandiq from "../../assets/logo_v2.png";
 import AliceCarousel from "react-alice-carousel";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Card from "./Card";
+import image2 from "../../assets/image 2.png";
+import image3 from "../../assets/image 3.png";
 export default function Overview() {
   const items = [
   
@@ -20,7 +22,7 @@ export default function Overview() {
   };
   return (
     <div className="overview-cnt">
-      <div>
+      <div className="overview-logo">
         <img src={demandiq} alt="demandiq logo" className="demandiq-logo"/>
         <div className="overview-content">
           <p>AI-powered Power BI dashboard for:​</p>
@@ -29,6 +31,7 @@ export default function Overview() {
           <p>- Global accessibility for proactive decision-making.​</p>​
         </div>
       </div>
+      <img src={image3} className="demandiq-img"/>
       <div className="overview-cards">
       <AliceCarousel mouseTracking items={items} responsive={responsive} disableDotsControls disableButtonsControls autoPlay animationDuration={3000} infinite/>
       </div>

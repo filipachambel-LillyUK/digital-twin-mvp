@@ -25,10 +25,10 @@ export default function ROIBenefits() {
             <li>Avoiding stockouts – assuming a 0.5% improvement on manufacturing in the Limbic £2M</li>
         </ul>
       </div>
-      <div className="benefits-card">
+      {/* <div className="benefits-card">
       <h2>Scalability, sustainability</h2>
       <ul></ul>
-        </div>
+        </div> */}
     </div>
   );
 }

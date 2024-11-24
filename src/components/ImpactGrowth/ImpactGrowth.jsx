@@ -7,7 +7,7 @@ export default function ImpactGrowth() {
         <div id="impact-growth" className="impact-growth-cnt">
             <h1>Impact & Growth</h1>
         <ROIBenefits />
-        <SuccessStories />
+        {/* <SuccessStories /> */}
         </div>
     )
 }

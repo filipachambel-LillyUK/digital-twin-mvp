@@ -7,12 +7,24 @@
     background-color: var(--backgroundBlue);
     color: var(--darkBlue);
     display: flex;
+    align-items: center;
     padding: 2rem;
+    overflow: hidden;
+}
+
+.overview-logo{
+    width: 40%;
 }
 
 .overview-content p:first-child{
     font-weight: bold;
     font-size: 2rem;
+}
+
+.demandiq-img{
+height: 400px;
+width: 400px;
+
 }
 
 .overview-card{
@@ -29,17 +41,12 @@
 }
 
 .overview-cards{
-width: 100%;
-overflow: hidden;
-display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem
+    width: 30%;
+    margin: 0 4rem 0 6rem;
 }
 
 .demandiq-logo{
-margin-top: 10rem;
-height: 30%;
+height: 200px;
 }
 
 .scenarioproblem-cnt{
@@ -49,12 +56,48 @@ height: 30%;
 .features-cnt{
 background-color: var(--backgroundBlue);
 color: var(--darkBlue);
+padding: 6rem;
+overflow: hidden;
+}
+
+.features-cnt h1{
+    text-align: center;
+}
+
+.features-body{
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+
+}
+
+.features-body img{
+    height: 400px;
+    width: 400px;
+    margin-right: 2rem;
+    text-align: left;
+    margin: 6rem 0;
+}
+
+.features-text-cnt{
+    display: flex;
+    margin-left: 10rem;
+   
 }
 
 .features-body-text{
     display: flex;
     flex-direction: column;
-    color: black;
+    background-color: #fff;
+    color: var(--darkBlue);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+
+}
+
+.features-body-text h4{
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){
@@ -66,5 +109,46 @@ color: var(--darkBlue);
     .overview-cnt{
         flex-direction: column;
     }
+
+    .features-cnt{
+        padding: 2rem;
+    }
+
+    .features-text-cnt{
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .features-body-text{
+        margin: 1rem 0;
+    }
+
+    .features-body img{
+        height: 300px;
+        width: 300px;
+        margin: 1rem;
+    }
+
+    .overview-cards{
+        margin: 0;
+    }
+
+    .overview-logo{
+        width: 100%;
+    }
+
+    .demandiq-img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .overview-cards{
+        margin-top: 2rem;
+        width: 100%;
+      
+       
+    }
+
+   
     
 }
