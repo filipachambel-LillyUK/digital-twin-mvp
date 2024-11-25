@@ -1,0 +1,53 @@
+.app-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--backgroundBlue);
+}
+
+.app-form form{
+    display: flex;
+    align-items: center;
+}
+
+.app-form input{
+    width: 50%;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    border: .1rem solid var(--darkBlue);
+    color: var(--darkBlue);
+    cursor: pointer;
+}
+
+.app-form input:focus{
+    outline: none;
+}
+
+.app-form button{
+    background-color: transparent;
+    border: none;
+}
+
+.app-form button:hover{
+    cursor: pointer;
+}
+
+.send-btn{
+    width: 30px;
+    height: 30px;
+}
+
+.app-lilly-logo{
+    height: 100px;
+}
+
+.app-demandiq-logo{
+    height: 150px;
+}
+
+.app-error{
+    color: var(--darkBlue);
+}

@@ -22,9 +22,9 @@
 }
 
 .demandiq-img{
-height: 400px;
-width: 400px;
-
+    height: 300px;
+    width: 100%;
+    margin-right: 2rem;
 }
 
 .overview-card{
@@ -43,10 +43,15 @@ width: 400px;
 .overview-cards{
     width: 30%;
     margin: 0 4rem 0 6rem;
+    display: flex;
+}
+
+.overview-logo-container{
+    width: 20%;
 }
 
 .demandiq-logo{
-height: 200px;
+height: 150px;
 }
 
 .scenarioproblem-cnt{
@@ -137,16 +142,15 @@ overflow: hidden;
         width: 100%;
     }
 
-    .demandiq-img{
-        height: 300px;
-        width: 300px;
-    }
-
     .overview-cards{
         margin-top: 2rem;
         width: 100%;
-      
+      flex-direction: column;
        
+    }
+
+    .demandiq-img{
+        width: 300px;
     }
 
    

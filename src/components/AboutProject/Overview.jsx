@@ -23,7 +23,9 @@ export default function Overview() {
   return (
     <div className="overview-cnt">
       <div className="overview-logo">
+        <div className="overview-logo-container">
         <img src={demandiq} alt="demandiq logo" className="demandiq-logo"/>
+        </div>
         <div className="overview-content">
           <p>AI-powered Power BI dashboard for:​</p>
           <p>- Real-time insights into stock levels.​</p>
@@ -31,8 +33,8 @@ export default function Overview() {
           <p>- Global accessibility for proactive decision-making.​</p>​
         </div>
       </div>
-      <img src={image3} className="demandiq-img"/>
       <div className="overview-cards">
+      <img src={image3} className="demandiq-img"/>
       <AliceCarousel mouseTracking items={items} responsive={responsive} disableDotsControls disableButtonsControls autoPlay animationDuration={3000} infinite/>
       </div>
     </div>
