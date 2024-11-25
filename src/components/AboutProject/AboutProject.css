@@ -63,6 +63,7 @@ background-color: var(--backgroundBlue);
 color: var(--darkBlue);
 padding: 6rem;
 overflow: hidden;
+display: flex;
 }
 
 .features-cnt h1{
@@ -72,7 +73,7 @@ overflow: hidden;
 .features-body{
     display: flex;
     color: black;
-    flex-wrap: wrap;
+   
 
 }
 
@@ -86,7 +87,7 @@ overflow: hidden;
 
 .features-text-cnt{
     display: flex;
-    margin-left: 10rem;
+    margin-left: 6rem;
    
 }
 
@@ -117,10 +118,15 @@ overflow: hidden;
 
     .features-cnt{
         padding: 2rem;
+        flex-direction: column;
     }
 
     .features-text-cnt{
         margin: 0;
+        flex-direction: column;
+    }
+
+    .features-body{
         flex-direction: column;
     }
 
@@ -130,8 +136,8 @@ overflow: hidden;
 
     .features-body img{
         height: 300px;
-        width: 300px;
-        margin: 1rem;
+        width: 100%;
+       
     }
 
     .overview-cards{
@@ -150,7 +156,8 @@ overflow: hidden;
     }
 
     .demandiq-img{
-        width: 300px;
+        width: 100%;
+        margin: 2rem 0;
     }
 
    

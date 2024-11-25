@@ -12,6 +12,14 @@
     justify-content: center;
 }
 
+.team-name{
+    color: #5D7FDA;
+}
+
+.team-name span{
+    color: var(--darkBlue);
+}
+
 .profile-card{
     background-color: #fff;
     margin: 1rem;

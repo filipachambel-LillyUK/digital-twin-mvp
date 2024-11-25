@@ -6,17 +6,20 @@ import alicia from '../../assets/profile/aliciaProfile.png';
 import esha from '../../assets/profile/eshaProfile.png';
 import lucie from '../../assets/profile/lucieProfile.png';
 import jack from '../../assets/profile/jackProfile.png';
+import yaro from "../../assets/profile/yaroProfile.png";
 
 export default function Team() {
     return(
         <div id="team" className="team-cnt">
             <h1>Meet the Team</h1>
+            <h2 className='team-name'><span>AI</span>liance Insp<span>AI</span>re</h2>
+            <h4>Working together to inspire solutions</h4>
             <div className='team-body'>
             <div className="profile-card">
                 <img src={alicia} alt="alicia profile"/>
                 <div className='profile-body'>
                 <h4>Alicia Koo</h4>
-                <p>Marketing</p>
+                <p>Marketing <br/> ​Dermatology & Rheumatology</p>
                 </div>
             </div>
             <div className="profile-card">
@@ -48,10 +51,10 @@ export default function Team() {
                 </div>
             </div>
             <div className="profile-card">
-                <img src={profile} alt=""/>
+                <img src={yaro} alt="yaro profile"/>
                 <div className='profile-body'>
                 <h4>Yaroslav Kraynik</h4>
-                <p>text</p>
+                <p>Computational Neuroscience <br/> Associate</p>
                 </div>
             </div>
             </div>

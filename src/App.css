@@ -51,3 +51,11 @@
 .app-error{
     color: var(--darkBlue);
 }
+
+@media screen and (max-width: 768px){
+    .app-demandiq-logo{
+        width: 100%;
+        margin: 0 1rem;
+    }
+    
+}
