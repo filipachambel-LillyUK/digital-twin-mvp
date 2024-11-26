@@ -8,6 +8,7 @@
     color: var(--darkBlue);
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding: 2rem;
     overflow: hidden;
 }
@@ -41,9 +42,13 @@
 }
 
 .overview-cards{
-    width: 30%;
-    margin: 0 4rem 0 6rem;
+
     display: flex;
+}
+
+.overview-cards-row{
+    display: flex;
+    gap: 2rem;
 }
 
 .overview-logo-container{
@@ -54,16 +59,66 @@
 height: 150px;
 }
 
-.scenarioproblem-cnt{
+.scenarioproblem-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem 4rem 2rem;
+}
 
+.scenarioproblem-cnt h1{
+text-align: center;
+color: var(--darkBlue);
+}
+
+.scenario-row, .scenario-example-row{
+    display: flex;
+    gap: 1rem;
+}
+
+.scenario-item, .scenario-example{
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(2, 2, 81);
+    
+}
+.scenario-item:nth-child(1){
+    background-color: rgb(209, 243, 245);
+}
+
+.scenario-item:nth-child(2){
+    background-color: rgb(167, 198, 233);
+}
+
+.scenario-item:nth-child(3){
+    background-color: rgb(141, 156, 248);
+}
+
+
+
+.scenario-example:nth-child(1){
+    background-color: rgb(210, 235, 253);
+
+}
+
+.scenario-example:nth-child(2){
+    background-color: rgb(105, 156, 209);
+
+}
+
+.scenario-img{
+    height: 80px;
+    width: 80px;
 }
 
 .features-cnt{
 background-color: var(--backgroundBlue);
 color: var(--darkBlue);
-padding: 6rem;
 overflow: hidden;
 display: flex;
+justify-content: center;
 }
 
 .features-cnt h1{
@@ -158,6 +213,10 @@ display: flex;
     .demandiq-img{
         width: 100%;
         margin: 2rem 0;
+    }
+
+    .scenario-example-row, .scenario-row{
+        flex-direction: column;
     }
 
    

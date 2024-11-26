@@ -7,7 +7,8 @@ export default function Costs() {
   return (
     <div className="costs-cnt">
       <div className="costs-cnt-item">
-        <h1>Initial Development Cost</h1>
+        <h1>Development Cost</h1>
+        <h4>(10-12 months)</h4>
         <img
           className="costs-img-cnt"
           src={initialCosts}

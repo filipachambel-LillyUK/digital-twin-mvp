@@ -6,9 +6,13 @@ export default function Navbar() {
 
   const scrollToSection = (section) => {
     const element = document.getElementById(section);
+    if (!element) return; 
+
+    const isMobile = window.innerWidth < 768; 
+    const offset = isMobile ? 180 : 100; 
     element.scrollIntoView({ behavior: "smooth" });
-    const offset = element.offsetTop;
-    window.scrollTo(0, offset - 100);
+    const elementTop = element.offsetTop;
+    window.scrollTo({ top: elementTop - offset, behavior: "smooth" });
   }
   return (
     <nav className="dt-navbar-cnt">

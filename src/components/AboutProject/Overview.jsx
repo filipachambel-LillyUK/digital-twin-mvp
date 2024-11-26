@@ -19,6 +19,7 @@ export default function Overview() {
   const responsive = {
     0: { items: 1 },
     1024: { items: 1 },
+    2000: { items: 1 },
   };
   return (
     <div className="overview-cnt">
@@ -34,8 +35,21 @@ export default function Overview() {
         </div>
       </div>
       <div className="overview-cards">
-      <img src={image3} className="demandiq-img"/>
-      <AliceCarousel mouseTracking items={items} responsive={responsive} disableDotsControls disableButtonsControls autoPlay animationDuration={3000} infinite/>
+      <div className="overview-cards-row">
+      <div className="overview-card">
+        <h4>The Challenge</h4>
+        <div>Supply chain inefficiencies are causing delays and shortages.​ These issues directly impact patient care by preventing timely access to
+        critical medicines.</div>
+      </div>
+      <div className="overview-card">
+        <h4>The Impact</h4>
+        <div>Minimised shortages and disruptions in the supply chain.​​ Faster, more
+        informed decisions for global teams.​​ Improved patient outcomes by
+        ensuring timely access to medications.</div>
+      </div>
+      </div>
+      {/* <img src={image3} className="demandiq-img"/> */}
+
       </div>
     </div>
   );

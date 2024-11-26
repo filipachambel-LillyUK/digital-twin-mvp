@@ -33,14 +33,14 @@ export default function Team() {
                 <img src={filipa} alt="filipa profile"/>
                 <div className='profile-body'>
                 <h4>Filipa Chambel</h4>
-                <p>Software Engineer<br/> Global Medical Affairs​ <br/>Chatbot Space​</p>
+                <p>Software Engineer<br/> Global Medical Affairs​​</p>
                 </div>
             </div>
             <div className="profile-card">
                 <img src={jack} alt="jack profile"/>
                 <div className='profile-body'>
                 <h4>Jack Stafford</h4>
-                <p>Procurement Associate</p>
+                <p>Procurement</p>
                 </div>
             </div>
             <div className="profile-card">
@@ -54,7 +54,7 @@ export default function Team() {
                 <img src={yaro} alt="yaro profile"/>
                 <div className='profile-body'>
                 <h4>Yaroslav Kraynik</h4>
-                <p>Computational Neuroscience <br/> Associate</p>
+                <p>Computational Neuroscience</p>
                 </div>
             </div>
             </div>

@@ -10,6 +10,7 @@
 .app-form form{
     display: flex;
     align-items: center;
+    margin-left: 4rem;
 }
 
 .app-form input{

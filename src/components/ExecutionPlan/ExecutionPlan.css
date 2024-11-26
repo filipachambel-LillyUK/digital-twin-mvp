@@ -13,21 +13,23 @@
 }
 
 .costs-cnt-item{
-    margin: 3rem 0;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
 
-.costs-cnt h1{
-  
+.costs-cnt h1, .costs-cnt h4{
+    text-align: center;
     color: var(--darkBlue);
 }
 
 .costs-img-cnt{
     border: .1rem solid var(--darkBlue);
     border-radius: 1rem;
+    width: 80%;
+    margin: 1rem 0 4rem 0;
 }
+
 
 @media screen and (max-width: 768px){
     .costs-cnt-item{
