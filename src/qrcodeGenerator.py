@@ -1,6 +1,6 @@
 import qrcode
 
-link = "https://main.d2mdvxdvxitg8p.amplifyapp.com/"
+link = "https://demandiq.d2mdvxdvxitg8p.amplifyapp.com/"
 
 qr = qrcode.QRCode(
     version=1,
@@ -12,6 +12,6 @@ qr = qrcode.QRCode(
 qr.add_data(link)
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="black", back_color="white")
+img = qr.make_image(fill_color="black", back_color="transparent")
 
 img.save("demandiq_qrcode.png")
