@@ -24,6 +24,7 @@ justify-content: center;
     margin: 0 .5rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+    color: #000;
 }
 
 .sysarch-btn-row button:hover{
@@ -46,19 +47,6 @@ margin: 3rem 0;
 .ui-card-cnt img{
  width: 50%;
 
-}
-
-.design-cnt alice-carousel alice-carousel__next-btn{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    text-align: end;
-}
-
-.design-cnt alice-carousel alice-carousel__prev-btn{
-    position: absolute;
-    top: 50%;
-    text-align: left;
 }
 
 @media screen and (max-width: 768px){
