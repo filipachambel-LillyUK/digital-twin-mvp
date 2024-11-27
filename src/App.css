@@ -51,6 +51,7 @@
 
 .app-error{
     color: var(--darkBlue);
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){
